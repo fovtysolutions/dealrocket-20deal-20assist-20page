@@ -10,17 +10,20 @@ export function CTA() {
                 <h2 className="text-3xl lg:text-4xl font-bold text-heading">
                   Your Deals. Your Market. Instantly Global.
                 </h2>
-                
+
                 <p className="text-lg text-heading leading-relaxed">
-                  Whether you're showcasing hot-selling products or niche specialties, Deal Rocket helps you 
-                  reach the right buyers at the right time. Compare inquiries, respond directly, and close 
-                  deals — all in one place. Your offers stay live for buyers around the globe to discover, 24/7.
+                  Whether you're showcasing hot-selling products or niche
+                  specialties, Deal Rocket helps you reach the right buyers at
+                  the right time. Compare inquiries, respond directly, and close
+                  deals — all in one place. Your offers stay live for buyers
+                  around the globe to discover, 24/7.
                 </p>
               </div>
 
               <p className="text-heading font-semibold">
-                At <span className="font-bold">Deal Rockets</span>, we connect suppliers with serious buyers 
-                worldwide — fast, simple, and hassle-free.
+                At <span className="font-bold">Deal Rockets</span>, we connect
+                suppliers with serious buyers worldwide — fast, simple, and
+                hassle-free.
               </p>
             </div>
 
@@ -34,5 +37,5 @@ export function CTA() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -3,19 +3,22 @@ export function HowToJoin() {
     {
       id: 1,
       title: "Create Your Free Account",
-      description: "Sign up on Deal Rockets and set up your business profile with all the essential details buyers need to know."
+      description:
+        "Sign up on Deal Rockets and set up your business profile with all the essential details buyers need to know.",
     },
     {
       id: 2,
-      title: "Get Verified & Listed", 
-      description: "Complete our quick verification process to become a trusted seller and have your products listed for global visibility."
+      title: "Get Verified & Listed",
+      description:
+        "Complete our quick verification process to become a trusted seller and have your products listed for global visibility.",
     },
     {
       id: 3,
       title: "Start Receiving Enquiries",
-      description: "Connect with genuine buyers worldwide, negotiate deals, and grow your trade network — all in one secure platform."
-    }
-  ]
+      description:
+        "Connect with genuine buyers worldwide, negotiate deals, and grow your trade network — all in one secure platform.",
+    },
+  ];
 
   return (
     <section className="py-16 lg:py-24 bg-white">
@@ -29,12 +32,16 @@ export function HowToJoin() {
         <div className="relative">
           {/* Connection Line */}
           <div className="hidden lg:block absolute top-8 left-32 right-32 h-0.5">
-            <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 100 1">
-              <path 
-                d="M0,0.5 Q25,0.2 50,0.5 T100,0.5" 
-                stroke="#ACACAC" 
-                strokeWidth="1" 
-                strokeDasharray="8,8" 
+            <svg
+              className="w-full h-full"
+              preserveAspectRatio="none"
+              viewBox="0 0 100 1"
+            >
+              <path
+                d="M0,0.5 Q25,0.2 50,0.5 T100,0.5"
+                stroke="#ACACAC"
+                strokeWidth="1"
+                strokeDasharray="8,8"
                 fill="none"
               />
             </svg>
@@ -47,7 +54,9 @@ export function HowToJoin() {
                 {/* Number */}
                 <div className="flex justify-center">
                   <div className="w-16 h-16 bg-white rounded-full shadow-lg border border-gray-100 flex items-center justify-center">
-                    <span className="text-xl font-bold text-heading">{step.id}</span>
+                    <span className="text-xl font-bold text-heading">
+                      {step.id}
+                    </span>
                   </div>
                 </div>
 
@@ -66,5 +75,5 @@ export function HowToJoin() {
         </div>
       </div>
     </section>
-  )
+  );
 }

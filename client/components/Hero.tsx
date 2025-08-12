@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 export function Hero() {
-  const [activeTab, setActiveTab] = useState<'buyer' | 'seller'>('buyer')
+  const [activeTab, setActiveTab] = useState<"buyer" | "seller">("buyer");
 
   return (
     <section className="relative bg-gradient-to-r from-[#010140] via-blue-800 to-indigo-900 overflow-hidden min-h-[613px]">
@@ -25,11 +25,14 @@ export function Hero() {
               </h1>
 
               <p className="text-base leading-5 text-[#E2E2E2] max-w-[510px] tracking-[0.32px]">
-                For over a years, we've established ourselves as a trusted, internationally recognized platform,
-                connecting genuine buyers and sellers across the globe. Our marketplace offers seamless, tailored
-                solutions to foster meaningful connections, drive growth, and adapt to the ever-changing dynamics
-                of global trade. With innovative tools, reliable market insights, and user-focused features, we
-                empower businesses to seize opportunities and thrive in today's competitive landscape.
+                For over a years, we've established ourselves as a trusted,
+                internationally recognized platform, connecting genuine buyers
+                and sellers across the globe. Our marketplace offers seamless,
+                tailored solutions to foster meaningful connections, drive
+                growth, and adapt to the ever-changing dynamics of global trade.
+                With innovative tools, reliable market insights, and
+                user-focused features, we empower businesses to seize
+                opportunities and thrive in today's competitive landscape.
               </p>
             </div>
 
@@ -47,23 +50,23 @@ export function Hero() {
                 {/* Active Background */}
                 <div
                   className={`absolute top-[7px] h-[45px] w-[140px] bg-gradient-to-r from-dealred to-dealred-900 rounded-[65px] shadow-[0_0_4px_-1px_rgba(0,0,0,0.25)] transition-all duration-300 ease-in-out ${
-                    activeTab === 'buyer' ? 'left-[19px]' : 'left-[167px]'
+                    activeTab === "buyer" ? "left-[19px]" : "left-[167px]"
                   }`}
                 />
 
                 {/* Buttons */}
                 <button
-                  onClick={() => setActiveTab('buyer')}
+                  onClick={() => setActiveTab("buyer")}
                   className={`relative z-10 w-[140px] h-[45px] flex items-center justify-center font-semibold text-[20px] leading-normal uppercase transition-colors duration-300 ${
-                    activeTab === 'buyer' ? 'text-white' : 'text-[#0D0D0F]'
+                    activeTab === "buyer" ? "text-white" : "text-[#0D0D0F]"
                   }`}
                 >
                   For Buyer
                 </button>
                 <button
-                  onClick={() => setActiveTab('seller')}
+                  onClick={() => setActiveTab("seller")}
                   className={`relative z-10 w-[97px] h-[45px] flex items-center justify-center font-normal text-[20px] leading-normal uppercase transition-colors duration-300 ${
-                    activeTab === 'seller' ? 'text-white' : 'text-[#0D0D0F]'
+                    activeTab === "seller" ? "text-white" : "text-[#0D0D0F]"
                   }`}
                 >
                   For Seller
@@ -98,5 +101,5 @@ export function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

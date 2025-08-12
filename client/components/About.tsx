@@ -1,4 +1,4 @@
-import { Eye, Target } from 'lucide-react'
+import { Eye, Target } from "lucide-react";
 
 export function About() {
   return (
@@ -7,9 +7,9 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left - Image */}
           <div className="order-2 lg:order-1">
-            <img 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/01acb200905fdf591ed2a58a0024d3106e1d6322?width=1000" 
-              alt="Trade Assistance" 
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/01acb200905fdf591ed2a58a0024d3106e1d6322?width=1000"
+              alt="Trade Assistance"
               className="w-full h-auto rounded-lg shadow-lg"
             />
           </div>
@@ -20,17 +20,20 @@ export function About() {
               <h2 className="text-3xl lg:text-4xl font-bold text-heading">
                 About Deal Rockets Trade Assist Program
               </h2>
-              
+
               <p className="text-tertiary-text leading-relaxed text-lg">
-                The Deal Rockets Trade Assist Program is a complete support system designed to make global 
-                sourcing secure, transparent, and hassle-free. It ensures smooth transactions, verified suppliers, 
+                The Deal Rockets Trade Assist Program is a complete support
+                system designed to make global sourcing secure, transparent, and
+                hassle-free. It ensures smooth transactions, verified suppliers,
                 and clear communication from enquiry to delivery.
               </p>
-              
+
               <p className="text-tertiary-text leading-relaxed">
-                Built on proven global trade assistance practices, this program helps you source products with 
-                confidence, negotiate favorable terms, and connect with reliable suppliers worldwide — knowing 
-                your procurement journey is backed by strong quality checks and trust-focused processes at every step.
+                Built on proven global trade assistance practices, this program
+                helps you source products with confidence, negotiate favorable
+                terms, and connect with reliable suppliers worldwide — knowing
+                your procurement journey is backed by strong quality checks and
+                trust-focused processes at every step.
               </p>
             </div>
 
@@ -47,10 +50,14 @@ export function About() {
                     </div>
                   </div>
                   <div className="space-y-3">
-                    <h3 className="text-xl font-semibold text-heading">Vision</h3>
+                    <h3 className="text-xl font-semibold text-heading">
+                      Vision
+                    </h3>
                     <p className="text-sm text-primary-text leading-relaxed">
-                      To become the most trusted global B2B marketplace, enabling businesses of every size to 
-                      connect, trade, and grow with complete transparency, efficiency, and service excellence.
+                      To become the most trusted global B2B marketplace,
+                      enabling businesses of every size to connect, trade, and
+                      grow with complete transparency, efficiency, and service
+                      excellence.
                     </p>
                   </div>
                 </div>
@@ -67,10 +74,13 @@ export function About() {
                     </div>
                   </div>
                   <div className="space-y-3">
-                    <h3 className="text-xl font-semibold text-heading">Mission</h3>
+                    <h3 className="text-xl font-semibold text-heading">
+                      Mission
+                    </h3>
                     <p className="text-sm text-primary-text leading-relaxed">
-                      To simplify global trade by connecting buyers and sellers through verified sourcing, 
-                      reliable vendor networks, and end-to-end procurement assistance that builds trust and 
+                      To simplify global trade by connecting buyers and sellers
+                      through verified sourcing, reliable vendor networks, and
+                      end-to-end procurement assistance that builds trust and
                       long-term partnerships.
                     </p>
                   </div>
@@ -81,5 +91,5 @@ export function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
