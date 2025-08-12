@@ -1,4 +1,4 @@
-import { Shield, Users, Globe, Star, Refresh, Package } from 'lucide-react'
+import { Shield, Users, Globe, Star, RotateCcw, Package } from 'lucide-react'
 
 export function Services() {
   const features = [
