@@ -31,7 +31,7 @@ export function Services() {
       description: "Gain confidence in your purchase with sample checks, independent product inspections, and continuous production monitoring before final shipment."
     },
     {
-      icon: Refresh,
+      icon: RotateCcw,
       title: "Smooth Process",
       description: "We simplify the procurement process by coordinating supplier communication, negotiations, shipping arrangements, and documentation handling on your behalf."
     },
