@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Deal Rockets Design System Colors
+        dealred: {
+          DEFAULT: "hsl(var(--dealred))",
+          50: "hsl(var(--dealred-50))",
+          100: "hsl(var(--dealred-100))",
+          500: "hsl(var(--dealred-500))",
+          600: "hsl(var(--dealred-600))",
+          900: "hsl(var(--dealred-900))",
+        },
+        stroke: "hsl(var(--stroke))",
+        'primary-text': "hsl(var(--primary-text))",
+        'secondary-text': "hsl(var(--secondary-text))",
+        'tertiary-text': "hsl(var(--tertiary-text))",
+        heading: "hsl(var(--heading))",
+        'gray-900': "hsl(var(--gray-900))",
+        'gray-600': "hsl(var(--gray-600))",
       },
       borderRadius: {
         lg: "var(--radius)",
